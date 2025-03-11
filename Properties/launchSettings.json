@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "localhost": {
+      "commandName": "Project",
+      "commandLineArgs": "-addr:localhost -port:8000 -buffersize:16384"
+    }
+  }
+}
