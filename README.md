@@ -72,4 +72,10 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+**Simple C# .NET Socket Server Framework** (c) by Thanut Panichyotai (@LuviKunG)
+
+This project is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
+
+You should have received a copy of the license along with this work. If not, see <https://creativecommons.org/licenses/by-sa/4.0/>.
+
+For more details, see the [LICENSE.md](LICENSE.md) file.
