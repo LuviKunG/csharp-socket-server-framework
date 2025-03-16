@@ -84,7 +84,9 @@ internal static class SocketServer
             }
             // Convert the received bytes to a string
             string data = Encoding.UTF8.GetString(buffer, 0, bytesRead);
-            Console.WriteLine($"Received: {data}");
+            byte[] byteData = new byte[bytesRead];
+            Array.Copy(buffer, byteData, bytesRead);
+            Console.WriteLine($"Received [{byteData.Length}]: {data}");
             // Handle the received message
             MessageHandler.HandleMessage(ref stream, data);
         }
